@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Brunch</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
+   integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+   crossorigin=""/>
+<!--<link rel="stylesheet" href="/app.css">-->
+  <script src="/app.js"></script>
+</head>
+<body>
+    <div id="app" style="height: 100vh; width: 100vw;">
+      <v-map :zoom=10 :center="[52.229, 21.012]">
+        <v-tilelayer url="https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoidG0tb29vIiwiYSI6ImNqZDdrNjBycDIzcnYyd2w5NWRmcHgxaWsifQ.rivkBggytEx5yR1eB8LKHw"></v-tilelayer>
+        <!--<v-marker :lat-lng="[52.229, 21.012]"></v-marker>-->
+      </v-map>
+    </div>
+</body>
