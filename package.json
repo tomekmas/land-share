@@ -1,8 +1,9 @@
 {
   "name": "brunch-app",
   "description": "Brunch.io application",
+  "main": "public/app.js",
   "private": true,
-  "author": "Brunch",
+  "author": "masiewiczt@gmail.com",
   "version": "0.0.1",
   "repository": "",
   "scripts": {
@@ -11,15 +12,15 @@
   },
   "dependencies": {
     "bootstrap": "^4.0.0",
-    "jquery": "^1.9.1",
-    "popper.js": "^1.12.9",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.13.0",
     "vue": "^2.5.13",
     "vue2-leaflet": "0.0.58"
   },
   "devDependencies": {
     "auto-reload-brunch": "^2",
     "babel-brunch": "^6.1.1",
-    "babel-eslint": "^7.2.3",
+    "babel-eslint": "^8.2.1",
     "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-es2015": "^6.24.1",
     "brunch": "^2",
